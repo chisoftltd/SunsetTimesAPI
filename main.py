@@ -19,6 +19,9 @@ print(sunrise.split("T"))
 print(sunset.split("T"))
 
 sunrise_list = sunrise.split("T")
+sunset_list = sunset.split("T")
+print(sunrise_list[1].split(":")[0])
+print(sunset_list[1].split(":")[0])
 
 current_date = datetime.now()
 print(current_date)
